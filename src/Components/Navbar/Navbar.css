@@ -1,0 +1,40 @@
+.navBar {
+    width: 100vw;
+    height: fit-content;
+    background-color: rgb(231, 241, 241);
+    display:flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    padding-top: 20px;
+    position: sticky;
+    margin-bottom: 3rem;
+}
+h1{
+    position: absolute;
+    left:0;
+}
+.desktopMenu{
+    text-decoration: none;
+    display: inline;
+    margin-right: 0px ;
+    margin-left:500px;  
+
+}
+.desktopmenuItem{
+    display: inline;
+    /* margin-right: 30px; */
+    padding-right: 50px;
+}
+.downloadBtn{
+    display: absolute;
+    right: 80px;
+    margin-left: 250px;
+    width: 150px;
+    height: 40px;
+    
+    background-color: rgb(58, 52, 243);
+    color: rgb(255, 255, 255);
+    border-style: none;
+    border-radius: 0.5px;
+}

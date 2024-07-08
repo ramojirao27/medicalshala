@@ -1,0 +1,59 @@
+.footer{
+    
+    
+    width: 100vw;
+    height: fit-content;
+    
+    
+}
+.footerTop{
+    display: flex;
+    justify-content: space-between;
+
+    margin: 0 2rem;
+    margin-top: 2rem;
+
+}
+.YORE{
+    width: 50%;
+    
+}
+.yoreCare{
+    width: 25%;
+    margin-left: 4rem;
+}
+.Leagal{
+    width: 25%;
+    margin: 0 2rem;
+}
+.Contact{
+    width: 45%;
+    
+}
+.footerBottom{
+    margin-top: 10px;
+}
+.socialMedia{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+
+}
+.icon{
+    font-size: 1rem;
+    width: 2rem;
+    margin-top: 2rem;
+    margin-right: 1.5rem;
+    padding: 0.5rem;
+}
+.copyRight{
+    
+    text-align: center;
+
+}
+.icon:hover{
+    background-color: rgb(192, 255, 91);
+    border-radius: 50%;
+    
+}

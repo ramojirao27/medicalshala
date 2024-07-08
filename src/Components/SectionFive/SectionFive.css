@@ -1,0 +1,60 @@
+.fifthSection{
+    width: 95vw;
+    margin: 10rem auto;
+    border-radius: 0.5rem;
+    background-color: rgb(223, 213, 253);
+    height: 500px;
+    display: flex;
+
+}
+.content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-right: 2rem;
+    text-align: center;
+}
+.sectionfirstHeading{
+font-size: 2rem;
+color: rgb(0, 0, 0);
+margin-bottom: 10px;
+}
+.sectionsecondHeading{
+font-size: 2rem;
+margin-bottom: 10px;
+
+}
+
+
+.playstoreImage{
+    width: 20px;
+    height: 20px;
+    object-fit: cover;
+}
+.createAbha{
+width: 200px;
+height: 50px;
+background-color: rgb(48, 34, 152);
+color: rgb(255, 255, 255);
+font-size: 1rem;
+font-weight: 700;
+border-style: none;
+border-radius: 0.5rem;
+margin-right: 10px;
+}
+.appstoreImage{
+    width: 20px;
+    height: 20px;
+    object-fit: cover;
+}
+.knowMore{
+width: 200px;
+height: 50px;
+background-color: rgb(243, 243, 243);
+color: rgb(48, 34, 152);
+font-size: 1rem;
+font-weight: 700;
+border-radius: 2px solid rgb(48, 34, 152);
+border-radius: 0.5rem;
+margin-left: 10px;
+}

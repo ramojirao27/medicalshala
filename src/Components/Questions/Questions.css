@@ -1,0 +1,23 @@
+.questionsHeading{
+    text-align: center;
+}
+h1{
+    text-align: center;
+}
+.questionsSection{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.question{
+    width: 85vw;
+    height: 5rem;
+    margin: 20px;
+    border: 1px solid black;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-left: 20px;
+    border-radius: 15px;
+    box-shadow: 10px 1px rgb(61, 59, 59);
+}

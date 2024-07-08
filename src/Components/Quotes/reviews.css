@@ -1,0 +1,74 @@
+
+.reviewHeader{
+    text-align: center;
+}
+.slider {
+    position: relative;
+    overflow: hidden;
+    margin: 20px auto;
+    width: 80%;
+    max-width: 800px;
+}
+
+.slide-wrapper {
+    display: flex;
+    transition: transform 0.5s ease-in-out;
+}
+
+.slide {
+    flex: 0 0 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.slide img {
+    width: 100%;
+    height: auto;
+}
+
+.caption {
+    position: absolute;
+    bottom: 10px;
+    left: 0;
+    width: 100%;
+    text-align: center;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 10px;
+}
+
+.prev, .next {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    padding: 10px;
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+    border: none;
+    cursor: pointer;
+    z-index: 1;
+}
+
+.prev {
+    left: 0;
+}
+
+.next {
+    right: 0;
+}
+.cards{
+    margin: 0 auto;
+    width: 60%;
+    object-fit: cover;
+}
+
+.card{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+
+    
+}
